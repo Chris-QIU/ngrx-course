@@ -1,4 +1,7 @@
 {
+  "angularCompilerOptions": {
+    "strictTemplates": true
+  },
   "compileOnSave": false,
   "compilerOptions": {
     "module": "esnext",
@@ -9,13 +12,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es2015",
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "lib": [
-      "es2017",
-      "dom",
-      "ES2017.object"
-    ]
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom", "ES2017.object"]
   }
 }
